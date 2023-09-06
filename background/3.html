@@ -12,23 +12,48 @@
           color: blue;
         }
 
-          .background-clip {
+          .background-border-box {
+        border: 10px dashed red;
+        background-image: url(../../Assignment/photos/indian_army.jpg);
+        background-clip: border-box;
+        background-repeat: no-repeat;
+    
+
+      }
+
+      .background-padding-box{
         border: 10px dashed red;
         background-image: url(../../Assignment/photos/Kargil\ War\ Memorial.webp);
-        background-clip: border-box;
+        /* background-clip: border-box; */
         background-clip: padding-box;
+        background-repeat: no-repeat;
+        /* background-clip: content-box; */
+        padding: 100px;
+
+      }
+
+      .background-content-box{
+        border: 10px dashed red;
+        background-image: url(../../Assignment/photos/Kargil\ War\ Memorial.webp);
+        /* background-clip: border-box; */
+        /* background-clip: padding-box; */
         background-clip: content-box;
+        background-repeat: no-repeat;
         padding: 100px;
 
       }
          
+      padding: 100px;
+
      
   </style>
    
 
 </head>
 <body>
-    <div class="background-clip">background-clip</div>
+    <div class="background-border-box">background-border-box</div>
+    <div class="background-padding-box">background-padding-box</div>
+     <div class="background-content-box">background-content-box</div>
     
 </body>
 </html>

@@ -12,19 +12,44 @@
           margin: 10px 0px;
           color: blue;
         }
-         .background-origin {
+         .background-border-box {
         border: 10px dashed red;
         background-image: url(../../Assignment/photos/Kargil\ War\ Memorial.webp);
         background-repeat: no-repeat;
         background-origin: border-box;
+        /* background-origin: padding-box; */
+        /* background-origin: content-box; */
+        padding: 100px;
+      }
+
+      
+
+      .background-padding-box{
+        border: 10px dashed red;
+        background-image: url(../../Assignment/photos/Kargil\ War\ Memorial.webp);
+        background-repeat: no-repeat;
+        /* background-origin: border-box; */
         background-origin: padding-box;
+        /* background-origin: content-box; */
+        padding: 100px;
+
+
+      }
+      .background-content-box{
+        border: 10px dashed red;
+        background-image: url(../../Assignment/photos/Kargil\ War\ Memorial.webp);
+        background-repeat: no-repeat;
+        /* background-origin: border-box; */
+        /* background-origin: padding-box; */
         background-origin: content-box;
         padding: 100px;
       }
     </style>
 </head>
 <body>
-    <div class="background-origin">background-origin</div>  
+    <div class="background-border-box">background-border-box</div> 
+    <div class="background-padding-box">background-padding-box</div> 
+    <div class="background-content-box">background-content-box</div>  
     
 </body>
 </html>
