@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin Padding Box</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        } 
+        .Army1{
+            background-color: red
+            ;
+            border: 5px solid blue;
+            color: black;
+            margin: 200px;  All four Direction 
+            }
+        
+        .Army2{
+            background-color: orange;
+            color: blue;
+            border: 5px solid red;
+            padding: 150px; All four Direction
+            
+        }
+        div[class*="box"]{
+            width: 150px;
+            height: 150px;
+            margin: 20px auto;
+            border: 5px solid red;
+            padding: 50px;
+        }
+        .border-box{
+            box-sizing: border-box;
+            Total Width => width - 100px - padding - 20*2 - border - 5*2 = > 100px
+            Total height => width - 100px - padding - 20*2 - border - 5*2 = > 100px
+        } 
+        .content-box{
+            box-sizing: content-box;
+            Total Width => width - 150px + padding - 20*2 + border - 5*2 = > 150px
+            Total height => width - 150px + padding - 20*2 + border - 5*2 = > 150px
+        } 
+    </style>
+</head>
+<body>
+    
+    <hr>
+    <div class="Army1">indian army is a my great love</div>
+    <hr>
+    <div class="Army2">indian army is a my grat love</div>
+    <hr>
+    <div class="border-box">Indian Army </div>
+    <hr>    
+    <div class="content-box">Indian Army </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
