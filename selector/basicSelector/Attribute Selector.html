@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute Selector</title>
+    <style>
+         div {
+            width: 200px;
+            height: 200px;
+            margin: 10px auto;
+            border: 5px solid red;
+        } 
+        div[class*="box"]{
+            width: 200px;
+            height: 200px;
+            margin: 10px auto;
+            border: 5px solid red;
+            color: black;
+        }
+        .army-1{
+            background-color: white;
+        }
+        .army-2{
+            background-color: paleturquoise;
+        }
+        .army-3{
+            background-color: greenyellow;
+        }
+        .army-4{
+            background-color: orange;
+        }
+        .army-5{
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><i>#Attribute Selector#</i></h1>
+    <hr>
+    <div class="army-1">Indian Army is a my great love</div>
+    <div class="army-2">Indian Army is a my great love</div>
+    <div class="army-3">Indian Army is a my great love</div>
+    <div class="army-4">Indian Army is a my great love</div>
+    <div class="army-5">Indian Army is a my great love</div>
+    <hr>
+    <div>Indian Army is a my great love</div>
+    <div>Indian Army is a my great love</div>
+    <div>Indian Army is a my great love</div>
+
+</body>
+
+</html>

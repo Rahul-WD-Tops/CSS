@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Psuedo Element Selector</title>
+    <style>
+      
+      h1::after{
+          content: "";
+          background-color: pink;
+          color: khaki;
+      }
+      p::first-letter{
+        background-color: green;
+        color: aliceblue;
+        font-size: 80px;
+      }
+      p::first-line{
+        background-color: orange;
+        color: aliceblue;
+        font-size: 30px;
+      }
+      p::selection{
+        background-color: ;
+        color: teal;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>::Psuedo Element Selector::</h1>
+    <p>
+      Indian army is a my great love
+    </p>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent Sibling Selector</title>
+    <style>
+        .Army+p{
+            background-color: teal;
+            color: khaki;
+            font-size: 30px;
+            border: 5px solid red;
+        }
+        .Army{
+            border: 5px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>+Adjacent Sibling Selector+</h1>
+    <div class="Army">
+        <p>indian army is a my great love</p>
+        <p>indian army is a my great love</p>
+        <p>indian army is a my great love</p>
+        <p>indian army is a my great love</p>
+    </div>
+    <p>indian army is a my great love</p>
+    <p>indian army is a my great love</p>
+    <p>indian army is a my great love</p>
+
+</body>
+</html>
