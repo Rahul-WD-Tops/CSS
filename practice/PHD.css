@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+body{
+    overflow-x: hidden
+}
+
+.nav-menu{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.nav{
+    padding-top: 15px;
+    background-color: #b13941;
+    
+}
+.container{
+    /* width: 90%; */
+    /* margin: 0 auto;    */
+}
+.Header-Wrapper{
+    background-image: linear-gradient(0deg, rgba(0,0,0,0) 70%, rgba(0,0,0,0.9999999999999999) 95%, rgba(0,0,0,0.9999999999999999) 100%);
+    padding-bottom: 85px;
+    
+
+}
+header{
+    background-image: url(../../website/IMAGE/backgraound\ image\ o3.png);
+    background-size: cover ;
+    background-position: center;
+    opacity: 0.702;
+    background-color: #000000;}
+
+
+.main-text{
+    margin-top: 45px;
+    text-align: center;
+    
+    
+}
+.main-text h1{
+    font-size: 55px;
+    color: #feedda;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 0 auto ;
+    
+}
+.main-text p{
+    font-size: 25px;
+    color:aliceblue;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-top: 35px;
+    margin:0 auto;
+    
+}
+.main-text button{
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 15px 40px;
+   
+    border-radius: 5px;
+    background-color: #f64b3c;
+    margin-top: 45px;
+}
+/* .................................page-2......................... */
+.body-1{
+    
+       justify-content: center;
+        background-size: cover ;
+        background-position: center;
+        opacity: 1.502;
+        background-color: #b13941;
+    background-image: url(../../website/IMAGE/backdraound\ line.png);
+}
+     
+    
+    .col-40{
+        /* justify-content: center; */
+        padding-top: 100px;
+        font-size: 20px;
+        color: #feedda;
+        font-weight: 700;
+        font-family: sans-serif;
+        display: flex;
+        gap: 50px;
+    }
+
+    
+
+    .button{
+        font-size: 50px;
+        text-transform: uppercase;
+        color: #f64b3c;
+        font-weight: 700;
+        font-family: sans-serif;
+        text-align: center;
+        /* padding: 20px 100px;
+        */
+    }
+         /* ........................................................................ */
+         .container{
+            margin-top: 15px;
+            background-color: #feedda;
+         }
+          
+         .Coffee{
+             background-color: hsl(32, 95%, 93%);
+            /* height: 100%; */
+            /* width: 100%; */
+            /* gap: 50px; */
+            /* display: flex; */
+            }
+            
+            
+            
+        .col-container{
+            /* text-align: center; */
+            display: flex;
+            justify-content: space-between;
+            /* align-items: center; */
+              
+          }
+          .col-50{
+            /* justify-content: center; */
+            font-size: 17px;
+
+        }
+            
+        
+          
+
+        .main-text01{
+              /* margin-top: 100px; */
+            /* margin-bottom: 100px; */
+            color: black;
+            padding: 30px;
+
+            
+
+        }
+        .main-text01 h1{
+            padding-bottom: 55px;
+            /* padding-top: 200px; */
+            color: black;
+            }
+
+           
+          
+          
+          
+        
+    
+    
