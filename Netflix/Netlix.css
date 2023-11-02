@@ -10,7 +10,7 @@
 .Container {
     height: 750px;
     /* background-color: black; */
-    background: url(./NETFLIXO1.jpg) rgba(28, 23, 23, 0.839);
+    background: url(../../CSS/Netflix/image/netflix\ backgraound\ .jpg) rgba(28, 23, 23, 0.839);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -75,9 +75,10 @@
 
 .email {
     height: 50px;
-    width: 400px;
+    width: 350px;
     border: 1px solid white;
     font-size: 17px;
+    margin-left: 180px;
     border-radius: 5px;
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
@@ -92,14 +93,17 @@
     border: none;
     border-radius: 5px;
     font-size: 22px;
-    margin-left: 430px;
-    margin-top: 5px;
+    margin-left: 20px;
+    margin-top: 5-30px;
     color: white;
     background-color: #e50914;
     padding-top: 5px;
     padding-left: 30px;
     text-align: left;
     padding-bottom: 13px;
+}
+.fouji01{
+    display: flex;
 }
 
 .Container2 {
@@ -151,7 +155,7 @@
 }
 
 .text-2 h1 {
-    padding-top: -10px;
+    padding-top: 20px;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 40px;
@@ -189,7 +193,7 @@
     width: 250px;
     border: 2px solid wheat;
     display: flex;
-    margin-left: 200px;
+    margin-left: 160px;
 
 }
 
@@ -307,6 +311,37 @@
     font-size: 16px;
     margin-bottom: 20px;
     /* margin-left:430px;  */
+}
+.email01 {
+    height: 50px;
+    width: 350px;
+    border: 1px solid white;
+    font-size: 17px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+
+.Get01 {
+    height: 50px;
+    width: 214px;
+    border: none;
+    border-radius: 5px;
+    font-size: 22px;
+    margin-left: 5px;
+    /* margin-top: -40px; */
+    color: white;
+    background-color: #e50914;
+    padding-top: 06px;
+    padding-left: 10px;
+    text-align: left;
+    padding-bottom: 13px;
+}
+.fouji0011{
+    display: flex;
 }
 
 
