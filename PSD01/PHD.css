@@ -552,7 +552,8 @@ footer{
     font-size: 26px;
     color: #ffffff;
     font-weight: 700;
-    font-family: sans-serif;margin-bottom: 20px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
 }
 div[class*="anchor"] a, .col-40 p{
     font-size: 20px;
