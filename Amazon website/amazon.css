@@ -114,6 +114,7 @@
 
 .box1{
 width: 25%;
+/* background-color: green; */
 }
 .img-wrapper
 {
@@ -198,6 +199,8 @@ gap: 10px;}
             display: flex;
             gap: 5px;
             overflow: hidden;
+            /* background-color: gray; */
+            padding: 15px;
             
          }
          .text-box{
@@ -227,7 +230,35 @@ gap: 10px;}
             right: 3px;
             top: 1700px;
          }
+
+
+
+         .foujisahab{
+            padding: 15px;
+            
+            display: flex;
+            gap: 15px;
+            /* background-color: gray; */
+
         
+        overflow: hidden;}
+        
+
+        .but0000{
+            height: 100px;
+            width: 40px;
+            position: absolute;
+            left: 3px;
+            top: 2050px;
+        }
+
+        .but00000{
+            height: 100px;
+            width: 40px;
+            position: absolute;
+            right: 3px;
+            top: 2050px;
+         }
 
 
          
