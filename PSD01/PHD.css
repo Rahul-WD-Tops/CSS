@@ -1,13 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     overflow-x: hidden
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-.nav-menu{
+
+.nav-menu {
     font-size: 20px;
     text-transform: uppercase;
     color: #ffffff;
@@ -16,45 +19,54 @@ body{
     padding-top: 25px;
     gap: 20px;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
 }
-.container{
+
+.container {
     width: 90%;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
-.Header-Wrapper{
-    background-image: linear-gradient(0deg, rgba(0,0,0,0) 70%, rgba(0,0,0,0.9999999999999999) 95%, rgba(0,0,0,0.9999999999999999) 100%);
+
+.Header-Wrapper {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.9999999999999999) 95%, rgba(0, 0, 0, 0.9999999999999999) 100%);
     padding-bottom: 85px;
 }
-header{
+
+header {
     background-image: url(../../website/IMAGE/backgraound\ image01.jpg);
-    background-size: cover ;
+    background-size: cover;
     background-position: center;
 }
-.col-50{
+
+.col-50 {
     width: 50%;
 }
-.main-text{
+
+.main-text {
     margin-top: 45px;
 }
-.main-text h1{
+
+.main-text h1 {
     font-size: 55px;
     color: #ffffff;
     font-weight: 700;
     font-family: sans-serif;
 }
-.main-text p{
+
+.main-text p {
     font-size: 25px;
     color: #ffffff;
     font-weight: 400;
     font-family: sans-serif;
     margin-top: 35px;
-    
+
 }
-.main-text button{
+
+.main-text button {
     font-size: 22px;
     text-transform: uppercase;
     color: #ffffff;
@@ -62,192 +74,229 @@ header{
     font-family: sans-serif;
     text-align: center;
     padding: 15px 40px;
-   
+
     border-radius: 32px;
     background-color: #f64b3c;
     margin-top: 45px;
 }
-.section-wrapper{
+
+.section-wrapper {
     padding-bottom: 70px;
     background-color: #f6eedf;
     position: relative;
-    z-index: 2; 
+    z-index: 2;
 }
-.army-solder div{
+
+.army-solder div {
     position: absolute;
 }
-.army-1{
+
+.army-1 {
     top: 45px;
     left: 165px;
 }
-.army-2{
+
+.army-2 {
     top: 8px;
     right: 71px;
 }
-.army-3{
+
+.army-3 {
     top: 195px;
     left: -10px;
 }
-.army-4{
+
+.army-4 {
     bottom: 179px;
     right: -2px;
 
 }
-.army-5{
+
+.army-5 {
     bottom: 36px;
     left: 630px;
-    
+
 }
-.army-6{
+
+.army-6 {
     bottom: 18px;
     right: 622px;
 }
-.section-text{
+
+.section-text {
     margin: 0 auto;
     padding-top: 70px;
 
 }
-.section-text01 h2{
+
+.section-text01 h2 {
     font-size: 56px;
     color: #f64b3c;
     font-weight: 700;
     font-family: sans-serif;
     text-align: center;
 }
-.section-text01 p{
+
+.section-text01 p {
     font-size: 25px;
-    color:#f64b3c; 
+    color: #f64b3c;
     font-weight: 400;
     font-family: sans-serif;
     text-align: center;
     margin-top: 30px;
     margin: 0 100px;
     padding: 16px 100px 0px;
-    }
-    .chef{
-        display: flex;
-        justify-content: space-around;
-        margin-top: 60px;
-        margin-bottom: 60px;
-    }
-    .chef img{
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-    }
-    div[class*="box"] h2{
-        font-size: 22px;
-        text-transform: uppercase;
-        color: #f64b3c;
-        font-weight: 700;
-        font-family: sans-serif;
-        text-align: center;
-        margin-top: 5px;
-    }
-    div[class*="box"] p{
-        font-size: 25px;
-        color: #f64b3c;
-        font-weight: 600;
-        font-family: sans-serif;
-        text-align: center;
-        margin-top: 20px;
-    }
-    .image-1{
-        padding: 7px;
-    }
-    .image-3{
-        margin-bottom: 12px;
-        padding: 0 18px;
-    }
-    .army-solder11 div{
-        position: absolute;
-    }
-    .army-001{
-        top: 408px;
-        left: -396px;
-    }
-    .army-002{
-        top: -60px;
-        right: 372px;
-    }
-    .army-003{
-        top: 327px;
-        left: 356px;
-    }
-    .army-004{
-        bottom: -97px;
-        left: -520px;
-    
-    }
-    .army-005{
-        top: 36px;
-        left: 630px;
-        
-    }
-    .army-006{
-        bottom: -453px;
-        right: 416px;
-    }
-  /* ---------------------------page-3----------------------------------- */
+}
 
-  .burger{
-    padding: 100px;
-  }
-  .burger img{
+.chef {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.chef img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+div[class*="box"] h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #f64b3c;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+div[class*="box"] p {
+    font-size: 25px;
+    color: #f64b3c;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-1 {
+    padding: 7px;
+}
+
+.image-3 {
+    margin-bottom: 12px;
+    padding: 0 18px;
+}
+
+.army-solder11 div {
+    position: absolute;
+}
+
+.army-001 {
+    top: 408px;
+    left: -396px;
+}
+
+.army-002 {
+    top: -60px;
+    right: 372px;
+}
+
+.army-003 {
+    top: 327px;
+    left: 356px;
+}
+
+.army-004 {
+    bottom: -97px;
+    left: -520px;
+
+}
+
+.army-005 {
+    top: 36px;
+    left: 630px;
+
+}
+
+.army-006 {
+    bottom: -453px;
+    right: 416px;
+}
+
+/* ---------------------------page-3----------------------------------- */
+
+.burger {
+    /* padding: 100px; */
+}
+
+.burger img {
     border-radius: 50%;
     height: 250px;
     width: 250px;
-  }
-  .section-wrapper-2{
+}
+
+.section-wrapper-2 {
     background-color: #f64b3c;
     padding-top: 50px;
     padding-bottom: 50px;
-    
+
 }
-.col-container{
-      display: flex;
-      align-items: center;
-      
-  }
-  .section-wrapper-2 .main-text{
+
+.col-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.section-wrapper-2 .main-text {
     margin-top: 100px;
     margin-bottom: 100px;
-  }
-  .section-wrapper-2 .main-text h1{
+}
+
+.section-wrapper-2 .main-text h1 {
     padding-top: 55px;
-  }
-  
-  
-  /* -----------------------page-4----------------------------- */
+}
 
 
-  .section-3 .section-wrapper-2{
+/* -----------------------page-4----------------------------- */
+
+
+.section-3 .section-wrapper-2 {
     background-color: cornsilk;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #f64b3c;
 }
-.section-3 .section-wrapper-2 h1, .section-3 .section-wrapper-2 p {
+
+.section-3 .section-wrapper-2 h1,
+.section-3 .section-wrapper-2 p {
     color: #f64b3c;
 }
 
-.section-4 .section-wrapper{
+.section-4 .section-wrapper {
     padding-top: 25px;
     padding-bottom: 85px;
-    background-color:#f64b3c;
+    background-color: #f64b3c;
 }
-.section-4 .section-text h2,.section-text p{
-    color:white;
+
+.section-4 .section-text h2,
+.section-text p {
+    color: white;
     margin-top: 20px;
     text-align: center;
 }
-.section-text h2{
+
+.section-text h2 {
     font-size: 54px;
 }
-.section-text p{
+
+.section-text p {
     font-size: 24px;
 }
-.circles{
+
+.circles {
     /* display: flex; */
     height: 200px;
     display: flex;
@@ -256,7 +305,7 @@ header{
     margin-bottom: 100px;
 }
 
-div[class*="cs"]{
+div[class*="cs"] {
     width: 270px;
     height: 270px;
     border-radius: 50%;
@@ -267,14 +316,16 @@ div[class*="cs"]{
     flex-direction: column;
     color: white;
 }
-div[class*="cs"] h2{
+
+div[class*="cs"] h2 {
     font-size: 75px;
     color: #ffffff;
     font-weight: 700;
     font-family: sans-serif;
     text-align: center;
 }
-div[class*="cs"] p{
+
+div[class*="cs"] p {
     font-size: 23px;
     text-transform: uppercase;
     color: #ffffff;
@@ -287,8 +338,8 @@ div[class*="cs"] p{
 
 /* -----------------------page-5--------------------------- */
 
-.packages{
-    
+.packages {
+
     display: flex;
     justify-content: space-evenly;
     margin-top: 100px;
@@ -296,7 +347,8 @@ div[class*="cs"] p{
     flex-wrap: wrap;
 
 }
-div[class*="pk"]{
+
+div[class*="pk"] {
     width: 25%;
     border-radius: 8px;
     background-color: #ffffff;
@@ -305,17 +357,20 @@ div[class*="pk"]{
     justify-content: center;
     gap: 15px;
 }
-.pack-image{
+
+.pack-image {
     width: 100px;
     margin: 0 auto;
 }
-div[class*="pk"]{
+
+div[class*="pk"] {
     display: flex;
     justify-content: center;
     flex-direction: column;
     z-index: 1;
 }
-div[class*="pk"] button{
+
+div[class*="pk"] button {
     font-size: 18px;
     text-transform: uppercase;
     color: #ffffff;
@@ -325,10 +380,11 @@ div[class*="pk"] button{
     padding-top: 3px;
     border-radius: 32px;
     background-color: #f64b3c;
-    border:none;
-    margin: 22px 38px;    
+    border: none;
+    margin: 22px 38px;
 }
-div[class*="pk"] h2{
+
+div[class*="pk"] h2 {
     font-size: 30px;
     text-transform: uppercase;
     color: #f64b3c;
@@ -337,7 +393,8 @@ div[class*="pk"] h2{
     text-align: center;
     margin-top: 30px;
 }
-div[class*="pk"] p{
+
+div[class*="pk"] p {
     font-size: 17px;
     color: #f64b3c;
     font-weight: 400;
@@ -345,18 +402,19 @@ div[class*="pk"] p{
     text-align: center;
     margin-top: 20px;
 }
-.indian-soldier{
-   display: flex;
-   justify-content: center;
-   margin-top: 20px;
-   padding:0 90px;
-  
+
+.indian-soldier {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 90px;
+
 }
 
 /* -----------------------pagr-6-------------------------- */
 
-.section-wrapper5{
-    
+.section-wrapper5 {
+
     background-image: url(../../website/IMAGE/backgraound\ image\ o2.png);
     background-size: cover;
     background-position: center;
@@ -366,28 +424,32 @@ div[class*="pk"] p{
     z-index: 1;
     position: relative;
 }
-.bg-color{
+
+.bg-color {
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color:#e52a19;
+    background-color: #e52a19;
     z-index: -1;
     opacity: 0.7;
     top: 0;
     left: 0;
 }
 
-.section-wrapper5 .main-text{
+.section-wrapper5 .main-text {
     margin: 0 100px;
     text-align: center;
     font-family: sans-serif;
     margin-top: 100px;
 }
-.section-wrapper5 p{
+
+.section-wrapper5 p {
     margin-top: 100px;
-    padding-top:100px; ;
+    padding-top: 100px;
+    ;
 }
-.section-wrapper5 h2{
+
+.section-wrapper5 h2 {
     color: white;
     font-size: 33px;
     margin-top: 50px;
@@ -395,74 +457,83 @@ div[class*="pk"] p{
     padding-top: 30px;
     font-weight: 700;
 }
-section .section-wrapper{
+
+section .section-wrapper {
     padding: 50px 0;
 }
 
-section .section-wrapper{
+section .section-wrapper {
     padding-top: 70px;
 }
-.section-text{
+
+.section-text {
     overflow-x: hidden;
 }
+
 .army-solder1 {
     position: relative;
 }
-.army-10{
+
+.army-10 {
     position: absolute;
     top: 36px;
     left: 112px;
 }
-.army-20{
+
+.army-20 {
     position: absolute;
     top: -50px;
     right: 60px;
 }
-.army-30{
+
+.army-30 {
     position: absolute;
     top: 126px;
     left: -8px;
 }
-.army-40{
+
+.army-40 {
     position: absolute;
     bottom: -262px;
     right: 2px;
 }
-.army-50{
+
+.army-50 {
     position: absolute;
     bottom: -744px;
     left: 810px;
     z-index: 0;
 }
-.army-60{
+
+.army-60 {
     position: absolute;
     top: 645px;
     left: 2px;
 }
 
 /* ---------------------page-7----------------------- */
-.section-text12 h2
-{
-font-size: 54px;
-color: #f64b3c;
-text-align: center;
+.section-text12 h2 {
+    font-size: 54px;
+    color: #f64b3c;
+    text-align: center;
 }
-.section-text12 p
 
-{
-font-size: 24px;
-text-align: center;
+.section-text12 p {
+    font-size: 24px;
+    text-align: center;
 
-color: #f64b3c;
+    color: #f64b3c;
 }
-.email-sub{
+
+.email-sub {
     border-radius: 30px;
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     margin: 70px 100px;
 }
-.email-sub input{
+
+.email-sub input {
     opacity: 0.502;
     font-size: 20px;
     color: #835e3f;
@@ -470,8 +541,9 @@ color: #f64b3c;
     font-family: sans-serif;
     border: none;
     margin-left: 40px;
-    }
-.email-sub button{
+}
+
+.email-sub button {
     padding: 15px 30px;
     border-radius: 30px;
     background-color: #f64b3c;
@@ -484,78 +556,91 @@ color: #f64b3c;
     text-align: center;
 }
 
-section .section-wrapper{
+section .section-wrapper {
     padding: 80px 30;
 }
 
-section .section-wrapper{
+section .section-wrapper {
     padding-top: 150px;
     padding-bottom: 150px;
 }
-.section-text{
+
+.section-text {
     overflow-x: hidden;
 }
+
 .army-solder11 {
     position: relative;
 }
-.army-11{
+
+.army-11 {
     position: absolute;
     top: -100px;
     left: 80px;
 }
-.army-21{
+
+.army-21 {
     position: absolute;
     top: -142px;
     right: 51px;
 }
-.army-31{
+
+.army-31 {
     position: absolute;
     bottom: -140px;
     left: 30px;
 }
-.army-41{
+
+.army-41 {
     position: absolute;
     bottom: -232px;
     right: 10px;
 }
-.army-51{
+
+.army-51 {
     position: absolute;
     bottom: -395px;
     left: 876px;
     z-index: 0;
 }
-.army-61{
+
+.army-61 {
     position: absolute;
     top: 270px;
     right: 830px;
 }
-.army-71{
+
+.army-71 {
     position: absolute;
     bottom: -455px;
     right: 491px;
 }
-.army-81{
+
+.army-81 {
     position: absolute;
     bottom: 11px;
     right: 492px;
 }
+
 /* ---------------------------page-8-------------------------------- */
 
-footer{
+footer {
     background-color: #222222;
     padding-bottom: 100px;
     padding-top: 100px;
-    
+
 }
 
-.footer-wrapper h2{
+.footer-wrapper h2 {
     font-size: 26px;
     color: #ffffff;
     font-weight: 700;
     font-family: sans-serif;
     margin-bottom: 20px;
 }
-div[class*="anchor"] a, .col-40 p{
+
+div[class*="anchor"] a,
+.col-40 p {
     font-size: 20px;
     color: #ffffff;
     font-weight: 400;
@@ -564,38 +649,44 @@ div[class*="anchor"] a, .col-40 p{
     flex-direction: column;
     text-decoration: none;
     padding-top: 10px;
-    
+
 }
 
 
 
 div[class*="anchor"] {
     margin-right: 90px;
-    
-}   
 
-.col-40{
+}
+
+.col-40 {
     margin-right: 200px;
 }
-.col-60{
+
+.col-60 {
     display: flex;
-   
+
 }
-.footer-logo{
+
+.footer-logo {
     display: flex;
     align-items: start;
     gap: 4px;
 }
-.fouji{
+
+.fouji {
     margin-bottom: -545px;
     padding-left: 5px;
 }
-.fouji2{
+
+.fouji2 {
     margin-top: 50px;
 }
-.f-icons{
+
+.f-icons {
     color: white;
 }
 
-.col-60 a{
-padding-right: 40px;}
+.col-60 a {
+    padding-right: 40px;
+}
