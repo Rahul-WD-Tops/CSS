@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* overflow-x: hidden; */
+}
+
+.contanors {
+
+    background-image: url(../../../CSS/practice/PSD001/imagr/1st\ Bg\ page.png);
+    height: 650px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* overflow-x: hidden; */
+
+
+
+}
+
+
+.pic {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+
+
+
+
+}
+
+/* .shape1 {
+    position: relative;
+    left: 0;
+    padding: 5px;
+} */
+
+.nav {
+    display: flex;
+    justify-content: end;
+    gap: 30px;
+}
+
+.pic button {
+    padding: 15px;
+    height: 20px;
+    width: 80px;
+    border-radius: 30px;
+    background-color: #7f7770;
+}
+
+.pic2 button {
+
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    font-weight: 800;
+    color: #776c64;
+}
+
+.pic2 {
+    /* padding: 10px; */
+    overflow-x: hidden;
+    bottom: -170px;
+    position: absolute;
+}
+
+
+
+
+
+.pic2 p {
+    padding: 20px;
+    width: 452px;
+    height: 130px;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #54524f;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Open Sans";
+}
+
+
+
+
+
+.pic2 h1 {
+
+    font-size: 50px;
+    color: #deb37e;
+    font-weight: 800;
+    font-family: "Open Sans";
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.22));
+}
+
+.pic2 h4 {
+
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #54524f;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+.page02 h1 {
+    font-size: 63px;
+    text-transform: uppercase;
+    color: #e2a355;
+    font-weight: 800;
+    font-family: "Open Sans";
+}
+
+.page02 {
+    /* width: 1788px; */
+    /* height: 210px; */
+    font-size: 27px;
+    color: #7f7770;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+
+.manpage {
+
+    display: flex;
+    gap: 100px;
+    padding: 20px;
+}
+
+.box1 img,
+.box2 img,
+.box3 img {
+    width: 100%;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 30%;
+}
+
+
+.box011,
+.box022,
+.box033 {
+    background-color: #7f7770;
+    font-size: 23px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.manpage button {
+    font-size: 23px;
+    letter-spacing: 5px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 800;
+    font-family: "Open Sans";
+}
+
+.btn button {
+    width: 334px;
+    height: 75px;
+    border-radius: 38px;
+    background-color: #7f7770;
+    text-align: center;
+
+}
