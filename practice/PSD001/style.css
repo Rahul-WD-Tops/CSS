@@ -184,8 +184,52 @@ body {
 
 }
 
+.thirdpagr,
 .c50 {
-    justify-content: end;
+    justify-content: space-between;
     align-items: end;
-    text-align: end;
+
+}
+
+
+
+.photo1 {
+    /* padding: 10px; */
+    /* gap: 300px; */
+    justify-content: space-between;
+    display: flex;
+    /* font-size: 58px; */
+    background-color: #7f7770;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.photo1 button {
+
+    border-radius: 37px;
+    background-color: #e2a355;
+}
+
+.photo1 img {
+    width: 100%;
+    /* height: 200px; */
+
+}
+
+.photo1,
+.h1 {
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+}
+
+.photo1,
+.p {
+
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
 }
