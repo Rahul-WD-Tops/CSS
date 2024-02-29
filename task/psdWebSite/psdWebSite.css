@@ -1,13 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     overflow-x: hidden
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-.nav-menu{
+
+.nav-menu {
     font-size: 20px;
     text-transform: uppercase;
     color: #ffffff;
@@ -16,28 +19,32 @@ body{
     padding-top: 25px;
     gap: 20px;
 }
-.nav{
+
+.nav {
     display: flex;
     justify-content: space-between;
     padding-top: 15px;
 }
-.container{
+
+.container {
     width: 90%;
-    margin: 0 auto;   
+    margin: 0 auto;
 }
-.Header-Wrapper{
-    background-image: linear-gradient(0deg, rgba(0,0,0,0) 70%, rgba(0,0,0,0.9999999999999999) 95%, rgba(0,0,0,0.9999999999999999) 100%);
+
+.Header-Wrapper {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0.9999999999999999) 95%, rgba(0, 0, 0, 0.9999999999999999) 100%);
     padding-bottom: 85px;
 }
-header{
+
+header {
     background-image: url(../../website/IMAGE/backgraound\ image01.jpg);
-    background-size: cover ;
+    background-size: cover;
     background-position: center;
 }
 
 
 
-/* .main-text button{ */
+.main-text button {
     font-size: 22px;
     text-transform: uppercase;
     color: #ffffff;
@@ -45,96 +52,110 @@ header{
     font-family: sans-serif;
     text-align: center;
     padding: 15px 40px;
-   
+
     border-radius: 32px;
     background-color: #f64b3c;
     margin-top: 45px;
 }
-/* .section-wrapper{ */
+
+.section-wrapper {
     padding-bottom: 70px;
-    background-color:#21243d;
+    background-color: #21243d;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
-/* .army-solder div{ */
+
+.army-solder div {
     position: absolute;
 }
-/* .army-1{ */
+
+.army-1 {
     top: 551px;
     left: -100px;
 }
-/* .army-2{ */
+
+.army-2 {
     top: -48px;
     right: -40px;
 }
-/* .army-3{ */
+
+.army-3 {
     top: 128px;
     left: 44px;
 }
-/* .army-4{ */
+
+.army-4 {
     bottom: 53px;
     right: 14px;
 
 }
-/* .army-5{ */
+
+.army-5 {
     bottom: 175px;
     left: 952px;
-    
+
 }
-/* .army-6{ */
+
+.army-6 {
     bottom: 669px;
     right: 700px;
 }
-/* .section-text{ */
+
+.section-text {
     margin: 0 auto;
     padding-top: 70px;
 
 }
-/* .section-text01 h2{ */
+
+.section-text01 h2 {
     font-size: 50px;
-    color:aliceblue;
+    color: aliceblue;
     font-weight: 700;
     font-family: sans-serif;
     text-align: center;
-    /* margin-top: 10px; */
+    margin-top: 10px;
 }
-/* .section-text01 p{ */
+
+.section-text01 p {
     font-size: 25px;
-    color:aliceblue; 
+    color: aliceblue;
     font-weight: 400;
     font-family: sans-serif;
     text-align: center;
     margin-top: 30px;
     margin: 0 100px;
     padding: 16px 100px 0px;
-    }
-    /* .chef{ */
-        display: flex;
-        justify-content: space-around;
-        margin-top: 60px;
-        margin-bottom: 60px;
-    /* } */
-    /* .chef img{ */
-        border-radius: 50%;
-        height: 200px;
-        width: 200px;
-        margin-left: 60px;
-    }
-    /* div[class*="box"] h2{ */
-        font-size: 25px;
-        text-transform: uppercase;
-        color: aliceblue;
-        font-weight: 700;
-        font-family: sans-serif;
-        text-align: center;
-        margin-top: 5px;
-    }
-    /* div[class*="box"] p{ */
-        font-size: 20px;
-        color:aliceblue;
-        font-weight: 600;
-        font-family: sans-serif;
-        text-align: center;
-        margin-top: 20px;}
-        
-    
+}
+
+.chef {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.chef img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-left: 60px;
+}
+
+div[class*="box"] h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 5px;
+}
+
+div[class*="box"] p {
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nav bar</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding-left: 30px;
+            align-items: center;
+            background-color: brown;
+            height: 50px;
+            position: static;
+        }
+
+        .text {
+            text-decoration: none;
+        }
+
+        .text a {
+            color: black;
+            animation: sir;
+            animation-duration: 10s;
+        }
+
+        @keyframes sir {
+            from {
+                margin-right: 0;
+            }
+
+            to {
+                margin-left: 50px;
+            }
+        }
+
+        header {
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                logo
+            </div>
+            <div class="text">
+                <a href="#">home</a>
+                <a href="#">menu</a>
+                <a href="#">about</a>
+                <a href="#">contect</a>
+            </div>
+        </nav>
+        <div class="disply">
+            <div class="image">
+                <img src="../ola scuter.png" alt="">
+            </div>
+            <div class="text1">
+                <h1>Lorem ipsum dolor sit.</h1>
+                <p></p>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
