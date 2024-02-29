@@ -6,12 +6,12 @@
 
 
 .background-image {
-    background-image: url("../images/uber.1.webp");
+    background-image: url("../../../html/photos/eats.webp");
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
-    background-size: 100% 800px;
+    background-size: 100% 470px;
     width: 100%;
-    height: 800px;
+    height: 475px;
     padding: 40px;
 }
 
@@ -46,7 +46,7 @@ padding-right: 10px;}*/
 
 .LOGIN {
     margin-right: 50PX;
-    margin-left: 1000PX;
+    margin-left: 500PX;
     border-radius: 50px;
     height: 50px;
     width: 100px;
