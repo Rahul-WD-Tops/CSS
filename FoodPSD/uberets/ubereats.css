@@ -2,6 +2,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+
 }
 
 
@@ -15,18 +16,29 @@
     padding: 40px;
 }
 
-/* .images{padding: 30px;   
-display: flex;
-margin-left: 60px;
- margin-right:60px} */
+.images {
+    /* width: 50%; */
+    /* width: 30%; */
+    /* gap: 200px; */
+    /* padding: 30px; */
+    /* display: flex; */
+    /* margin-left: 60px;
+    margin-right: 60px */
+}
 
-/* .row {  
-padding-left:10px;
-padding-right: 10px;}*/
+.row {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.images,
+.row {
+    width: 100%;
+}
 
 
 .row {
-    width: 33.3%;
+    /* width: 25%; */
     padding: 5px;
 }
 
@@ -64,11 +76,6 @@ padding-right: 10px;}*/
 }
 
 
-
-
-/* .icon{30px;} */
-
-
 .hungry {
 
 
@@ -101,7 +108,7 @@ padding-right: 10px;}*/
 
 
 .me {
-    display: flex;
+    /* display: flex; */
     align-items: center;
 
 }
@@ -113,13 +120,11 @@ padding-right: 10px;}*/
 }
 
 .mobile {
-    padding-left: 1100PX;
+    padding: 20px;
+    font-weight: 900;
+    padding-left: 860PX;
 
 }
-
-
-
-
 
 
 
@@ -145,8 +150,8 @@ padding-right: 10px;}*/
 }
 
 .button {
-    height: 40px;
-    width: 10%;
+    /* height: 40px; */
+    /* width: 10%; */
     background-color: black;
     border-radius: 10px;
     color: rgba(255, 255, 255, 0.84);
@@ -155,17 +160,18 @@ padding-right: 10px;}*/
 
 ul {
     list-style: none;
-    padding: 30px;
-    width: 20px;
+    /* padding: 30px; */
+    /* width: 20px; */
 }
 
 
 
 .unorderlist {
-    padding: 50px;
+    /* padding: 50px; */
     display: flex;
     margin-bottom: 30px;
-    padding: 20px;
+    /* padding: 20px; */
+    justify-content: center;
 }
 
 
@@ -174,29 +180,38 @@ li {
     width: 160px;
 }
 
+.unorderlist01 {
+    margin-right: 200px;
+    display: flex;
+    /* justify-content: center; */
+    /* margin-left: -220px */
+}
+
 
 
 
 .list {
+    text-align: center;
     width: 20px;
-    margin-right: 350px;
+    margin-right: 200px;
 
 
 }
 
 .countries {
 
-    font-size: 25px;
+    /* font-size: 25px; */
 }
 
 .View {
     padding-left: 850PX;
+    font-weight: 900;
 
 }
 
 
 .with {
-    display: flex;
+    /* display: flex; */
     align-items: center;
 
 }
@@ -212,21 +227,17 @@ li {
     margin: 200px;
 }
 
-.pizza {
-    /* width: 20px; */
-    /* margin-right: 120px; */
-    display: flex
-}
 
 .app {
     width: 20px;
-    margin-right: 200px;
+    margin-right: 220px;
+
 }
 
 
 .pasta {
     display: flex;
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
 
@@ -237,7 +248,7 @@ li {
 
 .bottle {
     display: inline-block;
-    padding-top: 40px;
+    /* padding-top: 40px; */
 }
 
 .remote {
@@ -257,11 +268,5 @@ li {
 
     display: inline-block;
     margin-left: 40px;
-    padding-top: 300px;
-}
-
-
-.pen {
-    height: 40px;
-    padding-left: 13px;
+    padding-top: 200px;
 }
