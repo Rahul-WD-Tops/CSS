@@ -7,7 +7,7 @@
 
 
 .background-image {
-    background-image: url("../../../html/photos/eats.webp");
+    background-image: url("../../html/photos/eats.webp");
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-size: 100% 470px;
@@ -150,8 +150,8 @@
 }
 
 .button {
-    /* height: 40px; */
-    /* width: 10%; */
+    height: 40px;
+    width: 10%;
     background-color: black;
     border-radius: 10px;
     color: rgba(255, 255, 255, 0.84);
@@ -269,4 +269,29 @@ li {
     display: inline-block;
     margin-left: 40px;
     padding-top: 200px;
+}
+
+.icone {
+    display: flex;
+    gap: 20px;
+}
+
+.list01 {
+    display: flex;
+    list-style-type: none;
+}
+
+.mainicone {
+    justify-content: space-between;
+    display: flex;
+    margin: 30px;
+}
+
+.list02 {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 100px;
+    /* margin: 50px; */
 }
