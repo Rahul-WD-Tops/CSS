@@ -1,0 +1,83 @@
+.contanor {
+    box-shadow: 2px 0px 5px black;
+}
+
+.contanor img {
+
+    /* width: 70%; */
+    height: 40px;
+    display: flex;
+
+}
+
+.logo {
+    display: flex;
+    padding: 15px;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+
+}
+
+
+.card {
+    padding-top: 30px;
+}
+
+.cardimg {
+    display: flex;
+}
+
+.flatcard {
+    display: flex;
+    justify-content: center;
+
+}
+
+.photoline01 {
+    width: 100%;
+    height: auto;
+    /* justify-content: center; */
+    text-align: center;
+    background-repeat: no-repeat;
+
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    /* gap: 100px; */
+}
+
+.partt01 {
+    position: absolute;
+    right: 397px;
+    top: 2615px;
+}
+
+.partt02 {
+    position: absolute;
+    right: 397px;
+    top: 2659px;
+
+}
+
+.populorsearch {
+    word-spacing: 15px;
+}
+
+.populorenext {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainadress {
+    display: flex;
+    justify-content: space-between;
+}
