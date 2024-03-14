@@ -9,36 +9,39 @@
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="stayle.css">
+
 </head>
 
 <body>
     <div class="navbar">
         <ul>
 
-            <li><a href="#">home</a></li>
-            <li><a href="#">abaout me</a></li>
-            <li><a href="#">portfolio</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">contact me</a></li>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about me</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#services">services</a></li>
+            <li><a href="#contact">contact me</a></li>
         </ul>
     </div>
     <section id="home">
 
         <div class="main">
             <h1 class="headings">I AM <br>RAHUL KUMAR</h1>
-            <button class="btn">
-                Hire me
-            </button>
+            <!-- <button> -->
+
+
+            <button class="btn" type="button" onclick="location.href='https://github.com/Rahul-WD-Tops'">Github</button>
+            <!-- </button> -->
 
         </div>
     </section>
-    <section id="aboute">
+    <section id="about">
         <h1 class="headings">ABAOUT ME</h1>
         <div id="pic">
             <img src="../../CSS/portfolio/mypic.jpg">
             <div id="intro">
                 <h2 class="name">RAHUL KUMAR</h2>
-                <li>proactive and adaplable web disegnar
+                <li>proactive and adaplable web designer
                     with strong communication and time management skill</li> <br>
                 <div class="mail">
                     <i class="fa-solid fa-envelope"></i>
@@ -74,15 +77,20 @@
     <section id="portfolio">
         <h1 class="heading">PORTFOLIO</h1>
         <div class="gallery">
-            <img src="../../CSS/website pics/amazon.png">
-            <img src="../../CSS/website pics/myantra.webp">
-            <img src="../../CSS/website pics/netflix.webp">
-            <img src="../../CSS/website pics/uber Eats.jpeg">
-            <img src="../../CSS/website pics/burderKink.png">
-            <img src="../../CSS/website pics/brunch.avif">
+            <a href="https://github.com/Rahul-WD-Tops/CSS/tree/main/Amazon%20website"><img
+                    src="../../CSS/website pics/amazon.png"></a>
+            <a href="https://github.com/Rahul-WD-Tops/CSS/tree/main/Myntra"><img
+                    src="../../CSS/website pics/myantra.webp"></a>
+            <a href="https://github.com/Rahul-WD-Tops/CSS/tree/main/Netflix"><img
+                    src="../../CSS/website pics/netflix.webp"></a>
+            <a href="https://github.com/Rahul-WD-Tops/CSS/tree/main/UberEats"><img
+                    src="../../CSS/website pics/uber Eats.jpeg"></a>
+            <a href="https://github.com/Rahul-WD-Tops/CSS/tree/main/BurgerKingg"><img
+                    src="../../CSS/website pics/burderKink.png"></a>
+            <a href=""><img src="../../CSS/website pics/brunch.avif"></a>
         </div>
     </section>
-    <section id="servises">
+    <section id="services">
         <h1 class="headings">SERVISES</h1>
         <div class="row">
             <div class="box">
@@ -111,6 +119,16 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section id="contact">
+        <h1 class="headings">CONTECT</h1>
+        <from action="" class="form">
+            <input type="text" name="" class="input" placeholder="Enter your name">
+            <input type="email" class="input" placeholder="Enter Your email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter your messege">
+    </textarea>
+            <input type="submit" value="SEND" id="send">
+        </from>
     </section>
 
 </body>
