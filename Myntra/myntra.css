@@ -1,5 +1,6 @@
 .contanor {
     box-shadow: 2px 0px 5px black;
+    width: 100%;
 }
 
 .contanor img {
@@ -15,6 +16,7 @@
     padding: 15px;
     gap: 20px;
     align-items: center;
+    width: 100%;
 }
 
 .profile {

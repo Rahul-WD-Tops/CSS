@@ -1,0 +1,55 @@
+@media (max-width: 576px) {
+    .partt01 {
+        position: absolute;
+        right: 229px;
+        top: 2433px;
+    }
+
+    .partt02 {
+        position: absolute;
+        right: 231px;
+        top: 2476px;
+    }
+}
+
+@media (min-width: 768px) {
+    .partt01 {
+        position: absolute;
+        right: 240px;
+        top: 2810px;
+    }
+
+    .partt02 {
+        position: absolute;
+        right: 241px;
+        top: 2845px;
+    }
+}
+
+@media (max-width: 576px) {
+    .partt01 {
+        position: absolute;
+        right: 229px;
+        top: 2433px;
+    }
+
+    .partt02 {
+        position: absolute;
+        right: 231px;
+        top: 2476px;
+    }
+}
+
+@media (min-width: 768px) {
+    .partt01 {
+        position: absolute;
+        right: 240px;
+        top: 2810px;
+    }
+
+    .partt02 {
+        position: absolute;
+        right: 241px;
+        top: 2845px;
+    }
+}

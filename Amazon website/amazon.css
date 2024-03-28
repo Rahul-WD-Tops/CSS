@@ -191,9 +191,9 @@
 
 }
 
-.box1 button,
-.box2 button,
-.box3 button {
+.box1,
+.box2,
+.box3 {
     display: flex;
     justify-content: center;
     /* color: blue; */
@@ -218,7 +218,7 @@
     margin: 10px;
     display: flex;
     gap: 5px;
-    overflow: hidden;
+    /* overflow: hidden; */
     /* background-color: gray; */
     padding: 15px;
 
