@@ -10,6 +10,9 @@
     align-items: center;
     padding: 10px;
     /* justify-content: space-between; */
+    box-shadow: 0px 0px 3px black;
+    position: sticky;
+
 }
 
 .navbar input {
@@ -46,6 +49,7 @@
     display: flex;
     align-items: center;
     gap: 10px;
+
 
 
 }
@@ -94,6 +98,8 @@
 /* .headersec {}.......... */
 .mainbox001 {
     display: flex;
+    gap: 20px;
+    padding: 10px;
 }
 
 
@@ -102,12 +108,12 @@
     box-shadow: 0px 0px 3px black;
     height: 200px;
     width: 165px;
-    margin: 10px;
+    /* margin: 10px; */
     text-align: center;
 }
 
 .box1 img {
-    height: 100%;
+    height: 116px;
     width: 100%;
     padding: 15px;
 }
@@ -116,4 +122,14 @@
     font-size: 12px;
 }
 
-.box10
+.box10 {
+    box-shadow: 0px 0px 3px black;
+    height: 200px;
+    width: 18%;
+    padding: 15px;
+
+}
+
+.box10 h4 {
+    font-size: 12px;
+}
