@@ -22,14 +22,41 @@
 
     height: 40px;
     width: 103px;
+    position: absolute;
+    top: 25px;
 }
 
 .perag {
     display: flex;
     text-align: end;
     position: absolute;
-    top: 100px;
+    top: 120px;
     right: 187px;
     gap: 30px;
     color: rgb(33, 33, 220);
+}
+
+.mainhead {
+    position: absolute;
+    top: 140px;
+    right: 260px;
+    font-size: 25px;
+    /* line-height: 103px; */
+    color: #2f446b;
+    font-weight: 300;
+    font-family: "Nunito";
+    text-align: center;
+}
+
+.whiteshap {
+    position: absolute;
+    bottom: -450px;
+    right: 1px;
+    /* z-index: 1; */
+}
+
+.vegetable img {
+    position: absolute;
+    bottom: -370px;
+    right: 99px;
 }
