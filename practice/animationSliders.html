@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Sliders</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .slider {
+            display: flex;
+            flex-direction: row;
+            /* justify-content: space-between; */
+            overflow: hidden;
+            gap: 20px;
+            animation-duration: 10s;
+            animation-name: slidein;
+            animation-iteration-count: infinite;
+        }
+
+
+        @keyframes slidein {
+            from {
+                margin-left: 100%;
+                width: 300%;
+            }
+
+            to {
+                margin-left: 0;
+                width: 100%;
+            }
+        }
+
+        .slider img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="slider">
+        <img src="../Flipkart/pics/card11.webp">
+        <img src="../Flipkart/pics/card12.webp">
+        <img src="../Flipkart/pics/card13.webp">
+        <img src="../Flipkart/pics/card14.webp">
+        <img src="../Flipkart/pics/card11.webp">
+        <img src="../Flipkart/pics/card12.webp">
+        <img src="../Flipkart/pics/card13.webp">
+        <img src="../Flipkart/pics/card14.webp">
+    </div>
+
+</body>
+
+</html>
