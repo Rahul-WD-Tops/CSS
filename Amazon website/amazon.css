@@ -194,7 +194,7 @@
 .box1,
 .box2,
 .box3 {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     /* color: blue; */
 
