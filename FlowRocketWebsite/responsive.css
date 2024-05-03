@@ -1,0 +1,53 @@
+@media only screen and (max-width: 350px) {}
+
+@media only screen and (max-width: 576px) {}
+
+@media only screen and (max-width: 768px) {
+    .img2 {
+        position: absolute;
+        top: -17px;
+        right: 15px;
+
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+    .nav a {
+        display: none;
+    }
+
+    .navbar .img1 {
+        position: absolute;
+        top: 10px;
+    }
+
+    .nav a {
+
+        text-decoration: none;
+    }
+
+    .nav {
+        position: absolute;
+        right: 75px;
+        top: 22px;
+
+    }
+
+    .nav .squericon {
+        color: gray;
+    }
+
+
+
+    .img2 {
+        position: absolute;
+        top: -17px;
+        right: 15px;
+
+    }
+
+    .icone2 {
+        display: block;
+    }
+}
