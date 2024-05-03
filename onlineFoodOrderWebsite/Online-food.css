@@ -83,7 +83,7 @@ html {
 
 #home::before {
     content: "";
-    background: url('bg2.jpg') no-repeat center center/cover;
+    background: url('./img/bg\ clients.jpg') no-repeat center center/cover;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -124,7 +124,7 @@ html {
 
 #services .box img {
     display: block;
-    height: 160px;
+    height: 100px;
     margin: auto;
 }
 
@@ -141,7 +141,7 @@ html {
 
 #client-section::before {
     content: "";
-    background: url('bg1.jpg') no-repeat center center/cover;
+    background: url('./img/our\ clients.jpg') no-repeat center center/cover;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -160,8 +160,8 @@ html {
 }
 
 #client .client-item img {
-    height: 120px;
-    margin: 34px;
+    height: 80px;
+    margin: 30px;
 }
 
 /* Contact Section */
@@ -171,12 +171,13 @@ html {
 
 #contact::before {
     content: "";
-    background: url('bg4.jpg') no-repeat center center/cover;
+    background: url('./img/contact\ us.webp') no-repeat center center/cover;
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: 99%;
     z-index: -1;
     opacity: 0.7;
+    margin: 10px;
 }
 
 #contact-box {
@@ -231,6 +232,7 @@ footer {
     text-align: center;
     justify-content: center;
     cursor: pointer;
+    border-radius: 30px;
 }
 
 .btn:hover {
