@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DropeDown Navbar</title>
+    <style>
+        body {
+            background-color: #333;
+        }
+
+        .dropdownmenu ul,
+
+        .dropdownmenu li {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .dropdownmenu ul {
+            /* background-color: gray; */
+            list-style: none;
+            width: 100%;
+
+        }
+
+        .dropdownmenu li {
+            float: left;
+            position: relative;
+            /* width: auto; */
+            /* background-color: #30a6e6; */
+
+        }
+
+        .dropdownmenu a {
+            background-color: #30a6e6;
+            color: white;
+            display: block;
+            font-weight: 400;
+            font-size: 13px;
+            font-family: 'pooins', sans-serif;
+            padding: 15px 80px;
+            align-items: center;
+            text-decoration: none;
+            transition: all 0.25s;
+        }
+
+        .dropdownmenu li:hover a {
+            background-color: #30a6e6;
+            color: red;
+        }
+
+        #submenu {
+            opacity: 0;
+            left: 0;
+            position: absolute;
+            top: 35px;
+            visibility: hidden;
+            z-index: 1;
+        }
+
+        li:hover ul#submenu {
+            opacity: 1;
+            top: 80px;
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="dropdownmenu">
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about me</a></li>
+            <li><a href="">Gallery</a>
+                <ul id="submenu">
+                    <li><a href="">Svg Canvas</a></li>
+                    <li><a href="">css js</a></li>
+                    <li><a href="">wordpress</a>
+
+                    </li>
+                </ul>
+            </li>
+            <li><a href="">news</a></li>
+            <li><a href="">contact us</a></li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
