@@ -13,7 +13,7 @@
 }
 
 .navbar {
-    width: 85%;
+    width: 90%;
     margin: auto;
     padding: 35px 0;
     display: flex;
@@ -22,8 +22,14 @@
 }
 
 .logo {
-    width: 120px;
+    width: 50px;
     cursor: pointer;
+    border-radius: 30px;
+}
+
+.logo:hover {
+    width: 60px;
+    border-radius: 50px;
 }
 
 .navbar ul li {
@@ -46,11 +52,34 @@
     background: #009688;
     position: absolute;
     left: 0;
-    bottom: -10px;
+    bottom: -1px;
     transition: 0.5;
 }
 
 .navbar ul li:hover::after {
     width: 100%;
 
+}
+
+.heading {
+    color: #fff;
+    text-align: center;
+}
+
+.heading h1 {
+    font-size: 50px;
+}
+
+.heading h1:hover {
+    /* font-style: italic; */
+    /* font-size: 70px; */
+    font-weight: 800;
+}
+
+.heading p {
+    font-size: 15px;
+}
+
+.heading p:hover {
+    font-weight: bold;
 }
