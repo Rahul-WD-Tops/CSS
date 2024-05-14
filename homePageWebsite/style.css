@@ -54,6 +54,7 @@
     left: 0;
     bottom: -1px;
     transition: 0.5;
+    /* gap: 10px; */
 }
 
 .navbar ul li:hover::after {
@@ -68,6 +69,9 @@
 
 .heading h1 {
     font-size: 50px;
+    /* position: absolute;
+    bottom: 250px;
+    left: 270px; */
 }
 
 .heading h1:hover {
@@ -78,8 +82,37 @@
 
 .heading p {
     font-size: 15px;
+    /* position: absolute;
+    bottom: 220px;
+    left: 180px; */
 }
 
 .heading p:hover {
     font-weight: bold;
+}
+
+.btn1 {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: aqua;
+    padding: 10px;
+    position: absolute;
+    left: 200px;
+    top: 300px;
+
+
+}
+
+.btn2 {
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: aqua;
+    padding: 10px;
+    position: absolute;
+    right: 200px;
+    top: 300px;
+
+
 }
