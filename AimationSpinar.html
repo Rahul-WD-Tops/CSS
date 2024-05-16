@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation spinar</title>
+    <style>
+        .spinar {
+            /* margin: 100px 300px; */
+            background-color: aliceblue;
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            border-radius: 50%;
+            border: 25px solid black;
+            border-top: 20px solid white;
+            animation: ani 2.5s linear infinite;
+        }
+
+        .spinar2 {
+            margin: 5px;
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            border-radius: 50%;
+            border: 25px solid red;
+            border-top: 20px solid white;
+            animation: ani 2.5s linear infinite;
+            /* border-spacing: 5px; */
+
+
+        }
+
+        @keyframes ani {
+            to {
+                transform: rotate(360deg);
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="spinar"></div>
+    <div class="spinar2"></div>
+
+</body>
+
+</html>
