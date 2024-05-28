@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        ul {
+            list-style: none;
+            background-color: black;
+            color: white;
+        }
+
+        ul li {
+            display: inline-block;
+            padding: 10px;
+        }
+
+        ul li:hover {
+            background-color: green;
+            color: white;
+        }
+
+        .dropdown {
+            display: none;
+
+        }
+
+        ul li:hover .Dropdown {
+            /* display: inline-block;   */
+            display: block;
+            position: absolute;
+            margin-left: 0px;
+            margin-top: 10px;
+        }
+
+        .Dropdown ul li {
+            display: block;
+            margin-right: 0;
+
+        }
+
+        .dropdown ul li:hover .dropdown2 {
+            display: block;
+            position: absolute;
+            margin-left: 48px;
+            margin-top: -28px;
+
+        }
+
+        /* 
+        .dropdown2 {
+            display: none;
+        }
+
+        .dropdown2 ul li:hover .dropdown3 {
+            display: block;
+            position: absolute;
+            margin-top: -28px;
+            margin-left: 59px;
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="navbar
+    ">
+        <ul>
+
+
+            <li>rahul</li>
+            <li>rahul
+                <div class="dropdown">
+                    <ul>
+                        <li>gaorav</li>
+                        <li>gaorav</li>
+                        <li>gaorav</li>
+                    </ul>
+                </div>
+            </li>
+            <li>rahul</li>
+            <li>rahul</li>
+            <li>rahul</li>
+        </ul>
+    </div>
+</body>
+
+</html>
