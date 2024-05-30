@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.section3 h2 {
+    padding: 15px;
+    color: green;
+    text-align: center;
+}
+
+.section3 h4 {
+    text-align: center;
+    padding: 15px;
+    color: blue;
+}
+
+.section3 p {
+    text-align: center;
+    /* color: blue; */
+}
+
+.section3 h5 {
+    text-align: center;
+    color: green;
+}
