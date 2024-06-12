@@ -26,3 +26,13 @@
     text-align: center;
     color: green;
 }
+
+.card-group img {
+    width: 100px;
+    margin: auto;
+
+}
+
+.card-footer img {
+    margin: auto;
+}
