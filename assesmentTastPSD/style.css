@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* width: 100%; */
+}
+
+.navbar {
+    background-color: green;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+.navbar p img {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.navbar .text {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .icon {
+    position: absolute;
+    top: 10px;
+    left: 272px;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    color: green;
+    padding: 20px;
+
+}
+
+.page1 {
+    background-image: url(./img/fruetpics.png);
+
+    height: 100vh;
+    width: 100%;
+    padding: 200px 30px 30px 30px;
+
+
+}
+
+.food {
+    margin: 10px;
+    height: 6px;
+    width: 40%;
+    background-color: green;
+}
+
+button {
+    margin: 10px;
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 20px 0 20px 0;
+}
+
+.page3 {
+    text-align: center;
+    padding: 50px;
+    margin: 40px;
+
+}
+
+h2,
+
+p {
+    padding: 10px;
+    color: green;
+}
+
+.sec2 {
+    text-align: center;
+    padding: 50px;
+}
+
+.sec3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.division1 {
+    flex-direction: column;
+    padding: 30px;
+}
+
+.picuer {
+    /* width: 100%; */
+}
+
+.page5 {
+    display: flex;
+}
+
+.line2 {
+    display: flex;
+}
